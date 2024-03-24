@@ -1,0 +1,23 @@
+Binary tree:
+             if each node can only have either 0 or 1 or 2 node is called Binary tree.
+
+
+
+Introduction to trees:
+
+                    class BinaryTreeNode:
+    def __init__(self,data):
+        self.data=data;
+        self.left=None
+        self.right=None
+
+btn1=BinaryTreeNode(1)
+btn2=BinaryTreeNode(4)
+btn3=BinaryTreeNode(5)
+
+btn1.left=btn2
+btn1.right=btn3             
+
+
+
+          
